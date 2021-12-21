@@ -1,0 +1,32 @@
+html {
+  background-color: rgb(10, 10, 10);
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* filter: blur(10px);
+  opacity: 0.5; */
+  transition: 500ms ease-in;
+}
+
+.canvas {
+  width: 100vw;
+  height: 100vw;
+  max-width: 400px;
+  max-height: 400px;
+  position: relative;
+}
+
+body.done {
+  filter: blur(0);
+  opacity: 1;
+}
+
+.containerSvg {
+  position: absolute;
+}
