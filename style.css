@@ -19,8 +19,8 @@ body {
   width: 100vw;
   height: 100vw;
   position: relative;
-  max-width: 800px;
-  max-height: 800px;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 body.done {
